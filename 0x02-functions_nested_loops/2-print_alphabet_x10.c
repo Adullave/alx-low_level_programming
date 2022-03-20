@@ -6,7 +6,7 @@
 *Return: 0
 */
 
-int main()
+void print_alphabet_x10(void)
 {
   int count, a;
     for (count = 1; count <= 10; count++)
