@@ -2,8 +2,8 @@
 /*
  * factorial - finds factorial
  * @n: input
- * Return: 0
  * Description: Calculates factorial of number
+ * Return: 0
  */
 
 int factorial(int n)
