@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - Prints the result of multiplication followed by new line
  * @argc: argument character integer
  * @argv: argument string list
- * Description: a function that prints out the result of multiplication
+ * 
+ * Return: 0 (Success)
  */
-
 int main(int argc, char const *argv[])
 {
 	(void)argc;
@@ -18,4 +17,4 @@ int main(int argc, char const *argv[])
 	}
 	printf("%i\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
-	}
+}
