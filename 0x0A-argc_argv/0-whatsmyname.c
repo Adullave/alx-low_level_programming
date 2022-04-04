@@ -1,16 +1,15 @@
 #include <stdio.h>
 
 /**
- *main - writes arguments
- *@agrc: argument count
- *@argv: array of pointers to argument
- * Return 0;
+ * main - prints program name, followed by a new line
+ * @argc: int
+ * @argv: list
+ * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
 (void)argc;
-	printf("%s\n", *argv);
-
+printf("%s\n", argv[0]);
 return (0);
 }
