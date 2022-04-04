@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main: arguments are printed
  * @argc: argument
@@ -8,7 +7,6 @@
  *
  * Return 0
  */
-
 int main(int argc, char *argv[])
 {
 	int i;
