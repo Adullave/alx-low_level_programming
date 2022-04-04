@@ -3,7 +3,6 @@
  * main: arguments are printed
  * @argc: argument
  * @argv: pointer to argument string
- * Description: Prints out argument on new line
  *
  * Return 0
  */
